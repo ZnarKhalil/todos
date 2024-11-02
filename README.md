@@ -26,26 +26,24 @@ A command-line to-do list manager built in Go. This application allows users to 
    go mod tidy
    ```
 
-3. **Build the application**:
-   ```bash
-   go build -o todo
-   ```
-
 ## Usage
 
 Once built, you can use the todo executable to manage tasks. Below are some basic commands:
 
     # Add a new task
-    ./todo add "Buy groceries"
+    go run ./ -add "Buy groceries"
 
     # List all tasks
-    ./todo list
+    go run ./ -list
+
+    # Edit task
+    go run ./ -edit "0:Buy Milk"
 
     # Mark a task as complete
-    ./todo complete 1
+    go run ./ -toggle 0
 
     # Delete a task
-    ./todo delete 1
+    go run ./ -delete 0
 
 ## Code Structure
 
