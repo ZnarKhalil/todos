@@ -14,7 +14,7 @@ A command-line to-do list manager built in Go. This application allows users to 
 1. **Clone the repository**:
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/ZnarKhalil/todos
    cd todos
 
    ```
